@@ -1,0 +1,37 @@
+{
+    "author": "me",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "bahnabfahrten",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "Bahnabfahrten",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "REQUEST",
+            "STATION",
+            "STATUS",
+            "TOTAL",
+            "IDX",
+            "ROWS"
+        ],
+        "projectType": "moddable",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery",
+            "gabbro"
+        ],
+        "uuid": "f1360fd0-483e-4c08-826f-1f8fcb17b437",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
