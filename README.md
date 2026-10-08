@@ -67,3 +67,7 @@ The repository can also be imported into CloudPebble as is.
 ### 1.0.0
 
 First release.
+
+## License
+
+MIT License, see [LICENSE](LICENSE).
