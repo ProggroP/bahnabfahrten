@@ -26,7 +26,7 @@ import Touch from "embedded:sensor/Touch/pebble";
 
 const W = screen.width;
 const H = screen.height;
-const IS_ROUND = (W === H);              // Round 2 hat identische width und height
+const IS_ROUND = (W === H);              // Gabbro ist rund und quadratisch
 
 const PAD       = IS_ROUND ? 16 : 6;
 const HEAD_H    = IS_ROUND ? 44 : 32;

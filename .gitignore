@@ -1,2 +1,14 @@
+# Build-Ausgabe und Abhaengigkeiten
 build/
 node_modules/
+package-lock.json
+
+# waf-Zustand (enthaelt die komplette lokale Umgebung)
+.lock-waf*
+.waf*
+
+# CloudPebble-Archiv, wird per pb.ps1 zip erzeugt
+cloudpebble/*.zip
+
+__pycache__/
+*.pyc

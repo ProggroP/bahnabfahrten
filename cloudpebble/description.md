@@ -1,8 +1,23 @@
-# Bahnabfahrten
+# Bahnabfahrten — Rebble App Store listing
 
-*Your next train to Hamburg, on your wrist.*
+Wird bei jeder Veröffentlichung mit aktualisiert. Englisch, weil der Store
+international ist. Zum Veröffentlichen aus diesem Verzeichnis heraus:
 
-A Pebble watchapp (v1.0.0).
+```bash
+pebble publish --release-notes "..."
+```
+
+---
+
+## Title
+
+Bahnabfahrten
+
+## Tagline
+
+Your next train to Hamburg, on your wrist.
+
+## Description
 
 A departure board for one commute: the regional line between Elmshorn and
 Hamburg in northern Germany.
@@ -46,21 +61,9 @@ the top of `src/pkjs/index.js`.
 
 The app needs the phone connection for location and network access.
 
-## Platforms
+## Category
 
-- Pebble Time 2 (`emery`)
-- Pebble Round 2 (`gabbro`)
-
-## Building
-
-With the [Pebble SDK](https://developer.repebble.com/sdk/):
-
-```bash
-pebble build
-pebble install --emulator emery
-```
-
-The repository can also be imported into CloudPebble as is.
+Utilities (Travel)
 
 ## Release notes
 
