@@ -28,6 +28,19 @@
             "emery",
             "gabbro"
         ],
+        "usesPermissions": [
+                "Location",
+                "LocalNetwork",
+                {
+                        "name": "Internet",
+                        "parameters": {
+                                "domains": [
+                                        "dbf.finalrewind.org",
+                                        "iris.noncd.db.de"
+                                ]
+                        }
+                }
+        ],
         "uuid": "f1360fd0-483e-4c08-826f-1f8fcb17b437",
         "watchapp": {
             "watchface": false
